@@ -29,7 +29,7 @@ public class Osm2matsim {
          *
          */
         CoordinateTransformation ct =
-                TransformationFactory.getCoordinateTransformation(TransformationFactory.WGS84, TransformationFactory.WGS84_Albers);
+                TransformationFactory.getCoordinateTransformation(TransformationFactory.WGS84, TransformationFactory.WGS84_UTM33N);
 
         /*
          * First, create a new Config and a new Scenario. One always has to do this when working with the MATSim
