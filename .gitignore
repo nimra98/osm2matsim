@@ -5,4 +5,3 @@
 *.class
 *.osm.pbf
 *.osm
-output/*.xml
